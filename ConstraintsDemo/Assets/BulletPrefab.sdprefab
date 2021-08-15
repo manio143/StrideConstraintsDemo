@@ -1,0 +1,47 @@
+!PrefabAsset
+Id: 1ac567dd-f9cc-4b58-8d5a-f9a9f05eb486
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 67c62625-b3e1-42e9-b514-f9266d835c0a
+    Parts:
+        -   Entity:
+                Id: 67c62625-b3e1-42e9-b514-f9266d835c0a
+                Name: Sphere
+                Components:
+                    b2d4d5bc803859bc7332252a52fa0607: !TransformComponent
+                        Id: b9075de6-63b0-4013-a2cc-0ee7fa79f1e3
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.3311237, Y: 0.3311237, Z: 0.3311237}
+                        Children: {}
+                    837c66260ff4dcac34435f019f65f4c8: !ModelComponent
+                        Id: e41de369-af71-462d-a2c1-6cd7c4ae3e85
+                        Model: 8d4386e2-2a70-472e-95bd-b424d0cf8092:Sphere
+                        Materials:
+                            d2cc2cf1406cff1150110d9fd78d15d9~0: 376cfabf-8a5f-4a7b-b2f6-4246df572ec6:Bullet
+                    7cb61ba4432ce040cbbad6cdd2c154f1: !RigidbodyComponent
+                        Id: 2ef4f15e-04bf-454b-b8b3-0c438d9c23cc
+                        CanCollideWith: DefaultFilter, StaticFilter, KinematicFilter, DebrisFilter, SensorTrigger, CustomFilter1, CustomFilter2, CustomFilter3, CustomFilter4, CustomFilter5, CustomFilter6, CustomFilter7, CustomFilter8, CustomFilter9, CustomFilter10
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: false
+                        Mass: 0.6
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            111e7708df0536c3bb2b61b9729864e2: !SphereColliderShapeDesc
+                                Is2D: false
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                    552336b46649a4a18c8c5d493aeaf66f: !ConstraintsDemo.TimerDetach,ConstraintsDemo
+                        Id: 721bff00-20a0-47c7-b771-3770a0438d07
+                        TimeToLive: 0:00:00:10.0000000
