@@ -894,7 +894,7 @@ Hierarchy:
                             UseReferenceFrameA: false
                             Limit:
                                 SetLimit: true
-                                LowerLimit: -2.355
+                                LowerLimit: -0.785
                                 UpperLimit: 0.785
                             Motor:
                                 EnableMotor: false
